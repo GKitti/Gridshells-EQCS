@@ -18,7 +18,7 @@ Guide to folders:
 
 - TEKNO: pyhton functions and objects utilzed by the above Jupyter files. 
 
-The Jupyter files can either rerun the analyis, or it can load the saved results. In the Jupyter file names HV indicates grid shells with horizontal and vertical supports while V indicates grid shells with only vertical supports.
+In the Jupyter files you can either rerun the analyis (Analysis), or you can load the saved results (Load Results). In the Jupyter file names, HV indicates grid shells with horizontal and vertical supports, while V indicates grid shells with only vertical supports.
 
 All finite element analysis are performed using OpenSeesPy: https://openseespydoc.readthedocs.io/en/latest/index.html
 
