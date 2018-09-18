@@ -7,6 +7,7 @@ import TekGeom as tg
 import Imperfection as imp
 from plotly.graph_objs import Layout, Figure, Marker
 from plotly.graph_objs import Histogram
+geompathGK='c:\\Kitti\\Dropbox\\PHD\\_PROCESS\\1_Grid_geometry\\saved geom'
 
 # C R E A T E   G E O M E T R Y   +   O P E N S E E S   M O D E L
 
@@ -20,7 +21,7 @@ def CHSSection(secID, matID, D, t, nc, nr, GJ):
     #  ops.section('Elastic', SecTag, GRS.Es, GRS.secA, GRS.secI, GRS.secI, GRS.Gs, GRS.secIt)
 
 
-def CreateGeom(GRS):
+def CreateGeom(GRS, geompath=geompathGK):
     if GRS.GeomType == 1:
         tg.Geometry1(GRS)
     elif GRS.GeomType == 2:
@@ -28,7 +29,7 @@ def CreateGeom(GRS):
     elif GRS.GeomType == 3:
         tg.Geometry3(GRS) # Kiewitt
     else:
-        tg.Geometry4(GRS)  # Grasshopper relaxed
+        tg.Geometry4(GRS, geompath=geompathGK)  # Grasshopper relaxed
     tg.SplitBeams(GRS)
 
 

@@ -260,9 +260,9 @@ def Geometry3(GRS):
     GRS.PlanArea = np.pi / 4 * GRS.span**2
 
 
-def Geometry4(GRS):
+def Geometry4(GRS, geompath):
 
-    filename = 'c:\\Kitti\\Dropbox\\PHD\\_PROCESS\\1_Grid_geometry\\saved geom\\{:d}x{:d}\\D{:d}{:d}\\h{:d}\\{:d}\\geometry{:s}.txt'.format(GRS.span, GRS.span, GRS.gN, GRS.gN, int(GRS.lperh), GRS.shape, GRS.grid)
+    filename = geompath+'\\{:d}x{:d}\\D{:d}{:d}\\h{:d}\\{:d}\\geometry{:s}.txt'.format(GRS.span, GRS.span, GRS.gN, GRS.gN, int(GRS.lperh), GRS.shape, GRS.grid)
 
     with open(filename) as f:
         content = f.readlines()
