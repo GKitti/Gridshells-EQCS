@@ -4,13 +4,15 @@ Linear and nonlinear finite element analysis of grid shells with a planar square
 
 Guide to folders:
 
-- Linear: Jupyter filed for section 4.2.2 of dissertation
+- Linear: Jupyter files for section 4.2.2 of dissertation;
 
-- Nonlinear: Jupyter filed for section 4.2.3 of dissertation
+- Nonlinear: Jupyter files for section 4.2.3 of dissertation;
 
-- Desing curves: Jupyter filed for sections 4.2.4-4.2.6 of dissertation
+- Desing curves: Jupyter files for sections 4.2.4-4.2.6 of dissertation;
 
-- Saved results: all analysis results of the above sections
+- Saved results: all analysis results of the above sections;
+
+- TEKNO: pyhton functions and objects utilzed by the above Jupyter files. 
 
 The Jupyter files can either rerun the analyis, or it can load the saved results.
 
