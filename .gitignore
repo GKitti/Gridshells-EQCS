@@ -71,9 +71,9 @@ target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
-Linear/.ipynb_checkpoints
-Nonlinear/.ipynb_checkpoints
-ignore/Design curves/.ipynb_checkpoints/
+/Linear/.ipynb_checkpoints/
+/Nonlinear/.ipynb_checkpoints/
+/Design curves/.ipynb_checkpoints/
 
 # pyenv
 .python-version
@@ -107,6 +107,12 @@ venv.bak/
 .mypy_cache/
 
 #others
-ignore/Design curves/munkakozi allapot sok egyeb otlettel/
+/Design curves/munkakozi allapot sok egyeb otlettel/
 Nonlinear/all
 Nonlinear/old
+Shape+Grid pattern for Chapter 3/other/
+TEKNO/s.py
+TEKNO/old.py
+TEKNO/Main.py
+Design curves/Comparison.ipynb
+TEKNO/.idea/
